@@ -5,6 +5,8 @@ using test-driven development (TDD). A TDD approach dictates that you'll follow
 the TDD workflow, meaning that you'll need to follow the TDD workflow of
 **Red**, **Green**, **Refactor**.
 
+## Background and Context
+
 ![tdd-cycle][rgr]
 
 The three steps for approaching all of the below problems will be to:
@@ -27,7 +29,11 @@ The tests you are writing today will be good practice for the _rest of your
 programming career_ so take your time and ensure you are writing the best tests
 you can!
 
-Begin by downloading the starter from [Github][github].
+## Set up
+
+Clone the starter from the **Download** link at the bottom of this page.
+
+Run `npm install` to install any dependencies.
 
 ## Phase 1: Testing the `reverseString` function
 
@@ -234,7 +240,6 @@ starting your journey into TDD development.
 [mocha]: https://mochajs.org/#bdd
 [chai]: https://www.chaijs.com/api/bdd/
 [chai-spies]: https://www.chaijs.com/plugins/chai-spies/
-[github]: https://www.github.com/appacademy/practice-for-week-04-tdd-style-long-practice
 [rgr]: https://appacademy-open-assets.s3-us-west-1.amazonaws.com/Module-JavaScript/testing/assets/rgr.png
 [reciprocal]: https://www.mathopenref.com/reciprocal.html
 [mocha-hooks]: https://mochajs.org/#hooks
