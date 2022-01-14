@@ -50,7 +50,7 @@ function so you will have it available to test.
 Write a test that will ensure that when given the input `"fun"` the
 `reverseString` function will return the reversed output (`nuf`). Now run your
 spec and watch it fail. If you did this correctly you should have mocha telling
-you `TypeError: reverseString is not a function`.
+you `AssertionError: expected undefined to equal 'nuf'`.
 
 Remember! This is expected because you are doing test-driven development and you
 have written the test before you have written the `reverseString` function.
